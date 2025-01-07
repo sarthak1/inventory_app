@@ -1,0 +1,8 @@
+<h1>Update Product</h1>
+<form method="post">
+    {% csrf_token %}
+    Name: <input type="text" name="name" value="{{ product.name }}"><br>
+    Category: <input type="text" name="category" value="{{ product.category }}"><br>
+    Quantity: <input type="number" name="quantity" value="{{ product.quantity }}"><br>
+    <button type="submit">Update</button>
+</form>

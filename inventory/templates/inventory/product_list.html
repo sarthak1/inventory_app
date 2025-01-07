@@ -1,0 +1,12 @@
+<h1>Product List</h1>
+<a href="/add/">Add Product</a>
+<ul>
+    {% for product in products %}
+    <li>
+        {{ product.name }} ({{ product.category }}) - {{ product.quantity }}
+        <a href="/update/{{ product.id }}/">Update</a>
+        <a href="/delete/{{ product.id }}/">Delete</a>
+        <a href="/reduce/{{ product.id }}/">Reduce Quantity</a>
+    </li>
+    {% endfor %}
+</ul>

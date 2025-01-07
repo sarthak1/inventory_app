@@ -25,13 +25,12 @@ SECRET_KEY = "django-insecure-mb+s$cbm&%6+il80cdmrdo3wgecy^-8s!m)!!o5a**n=_yqin7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['inventory-app-puiv.onrender.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    'inventory-app-puiv.onrender.com',
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",

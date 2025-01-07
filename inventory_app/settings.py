@@ -31,14 +31,14 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'inventory-app-puiv.onrender.com',
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    'inventory',
-    'inventory-app-puiv.onrender.com',
+    'inventory'
 ]
 
 MIDDLEWARE = [
